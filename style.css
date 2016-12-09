@@ -1,21 +1,32 @@
-.header{
-	text-align: right;
+header{
 	display: inline-block;
+	width: 30%;
+	height: 50px;
+	float: right;
+}
+.header{
 }
 #gmail{
-
+	width: 20px;
+	float: left;
+	margin: 0 20px 0 30px;
 }
 #images{
-
-}
-#apps{
+	width: 20px;
+	float: left;
+	margin: 0 20px 0 20px;
 }
 #img img{
 	height: 35px;
 	width: 35px;
+	float: left;
+	margin: 0 0px 0 20px;
 }
-#sign{
-
+#sign img{
+	height: 35px;
+	width: 150px;
+	float: left;
+	margin: 0 20px 0 20px;
 }
 #logo{;
 	margin-left: 500px;
