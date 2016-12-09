@@ -1,20 +1,30 @@
 header{
 	display: inline-block;
-	width: 30%;
+	width: 35%;
 	height: 50px;
 	float: right;
 }
 .header{
 }
+div header div a{
+	text-decoration: none;
+	font-family: arial;
+	color: grey;
+}
 #gmail{
 	width: 20px;
 	float: left;
-	margin: 0 20px 0 30px;
+	margin: 10px 20px 0 30px;
+	font-family: arial;
+	text-decoration: none;
+
 }
 #images{
 	width: 20px;
 	float: left;
-	margin: 0 20px 0 20px;
+	margin: 10px 30px 0 20px;
+	font-family: arial;
+	text-decoration: none;
 }
 #img img{
 	height: 35px;
