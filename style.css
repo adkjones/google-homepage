@@ -1,10 +1,10 @@
-header{
-	display: inline-block;
-	width: 35%;
-	height: 50px;
-	float: right;
-}
 .header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-left: 900px;
+
+
 }
 div header div a{
 	text-decoration: none;
@@ -38,7 +38,11 @@ div header div a{
 	float: left;
 	margin: 0 20px 0 20px;
 }
-#logo{;
+.main{
+	margin-top: 80px;
+}
+
+#logo{
 	margin-left: 500px;
 	margin-bottom: 40px;
 }
@@ -47,15 +51,37 @@ div header div a{
 		margin-bottom: 40px;
 }
 .buttons{
-	margin-left: 40%;
+	margin-left: 10%;
+	border: solid;
 }
 #search{
-	display: inline-block;
+	display: inline;
+	margin-right: 30px;
+	border: solid;
+
 }
 #lucky{
-	display: inline-block;
-	margin-left: 30px;
+	display: inline;
+	margin-left: 10px;
+	border: solid;
 }
 div form input{
 	width: 500px;
+}
+.footer{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+ul{
+	list-style: none;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 10px;
+}
+li{
+	display: inline;
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration: none;
 }
