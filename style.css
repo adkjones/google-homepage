@@ -11,6 +11,9 @@ div header div a{
 	font-family: arial;
 	color: grey;
 }
+.header :hover{
+	text-decoration: underline;
+}
 #gmail{
 	width: 20px;
 	float: left;
@@ -92,6 +95,17 @@ li{
 	font-family: Arial;
 	font-size: 12px;
 	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+	color: grey;
+}
+a:visited{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	text-decoration: underline;
 }
 #advertising{
 	display: inline;
