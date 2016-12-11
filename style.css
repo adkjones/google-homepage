@@ -1,8 +1,8 @@
 .header{
 	position: absolute;
 	top: 0;
-	width: 100%;
-	margin-left: 900px;
+	width: 30%;
+	margin-left: 69%;
 
 
 }
@@ -47,20 +47,31 @@ div header div a{
 	margin-bottom: 40px;
 }
 .search_form{
-		margin-left: 38%;
+		margin-left: 18%;
 		margin-bottom: 40px;
+		width: 65%;
+		height: 30px;
+		font-family: Arial;
+		font-size: 16px;
 }
+
 .buttons{
-	margin-left: 25%;
+	margin-left: 33%;
 }
 #search{
 	display: inline;
-	margin-right: 30px;
-
+	height: 30px;
+	width: 175px;
+	font-family: Arial;
+	background-color: #f2f2f2;
 }
 #lucky{
 	display: inline;
-	margin-left: 10px;
+	margin-left: 45px;
+	width: 175px;
+	height: 30px;
+	font-family: Arial;
+	background-color: #f2f2f2;
 }
 div form input{
 	width: 300px;
