@@ -66,15 +66,16 @@ div header div a{
 	height: 30px;
 	width: 175px;
 	font-family: Arial;
-	background-color: #f2f2f2;
+	padding: 0px;
 }
 #lucky{
 	display: inline;
 	margin-left: 45px;
+	margin-right: 0px;
 	width: 175px;
 	height: 30px;
 	font-family: Arial;
-	background-color: #f2f2f2;
+	padding: 0px;
 }
 div form input{
 	width: 300px;
